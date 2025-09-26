@@ -57,7 +57,7 @@ body {
 /* Bottom Section */
 .bottom-section {
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 400px 400px;
   gap: 20px;
 }
@@ -68,7 +68,7 @@ body {
   border-radius: 12px;
   padding: 20px;
   text-align: left;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #f9fcff;
 }
 
