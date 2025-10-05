@@ -10,10 +10,12 @@ body {
   transition: background-color 0.3s;
 }
 
+/* Dark mode background colour */
 body.dark-mode {
   background-color: #385b4f
 }
 
+/* Stopwatch Styling */
 .container {
   display: flex;
   flex-direction: column;
@@ -61,6 +63,7 @@ h1 {
   opacity: 0.8;
 }
 
+/* Dark/Light Theme Toggle Styling */
 #toggleMode {
   position: absolute;
   top: 20px;
@@ -80,6 +83,7 @@ h1 {
   margin-bottom: 20px;
 }
 
+/* Lap-Times Styling */
 #lap-times {
   list-style: none;
   padding: 0;
@@ -92,6 +96,8 @@ h1 {
   padding: 5px 0;
   border-bottom: 1px solid #eee;
 }
+
+/* Mobile Responsiveness  */
 @media (max-width: 600px) {
   .container {
     width: 90%;
